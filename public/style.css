@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+   margin: 0;
+   padding: 0;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    height: 100vh;
+    background-color:#1F0042;
+    display: flex;
+}
+.sidebar{
+    flex: 3;
+    padding-left: 10px;
+    border-right: 1px solid white;
+}
+.main{
+    flex: 9;
+}
+.upper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+}
+.name{
+    color: white;
+}
+.chat-btn{
+    border: none;
+    margin-left: 10px;
+    width: 283px;
+    padding: 10px 8px;
+    font-weight: bolder;
+    background-color: rgb(28, 28, 253);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+}
+.plus{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.query-btn{
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 283px;
+    padding: 10px 8px;
+    font-weight: bolder;
+    background-color:#1F0042;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.chat-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.query{
+    display: flex;
+    align-items:flex-start;
+    color: white;
+    margin-bottom: 20px;
+    
+    
+}
+.para{
+    padding: 0;
+    margin: 0;
+}
+.t-chat{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    overflow-y: auto;
+}
+.input-sent{
+    width:700px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.type{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 13px 10px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(83, 83, 180);
+    color: white;
+
+}
+.type::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.sent{
+    font-size: 27px;
+    padding: 3px 15px;
+    border: none;
+    background-color: rgb(83, 83, 180);
+    cursor: pointer;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+    
+}
